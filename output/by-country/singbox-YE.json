@@ -4,19 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "neth9.lunariai.ru",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "type": "trojan",
+      "tag": "🇾🇪 YE 01 - xiaohe",
+      "server": "z-jp1.1card.cc",
+      "server_port": 10010,
+      "password": "ultra@kWZdAzt_IH593eGLRjdxnBZ0",
       "tls": {
         "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "www.cloudflare.com",
+        "insecure": true
       }
     },
     {
@@ -24,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇾🇪 YE 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇾🇪 YE 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
