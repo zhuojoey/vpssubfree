@@ -13,19 +13,19 @@ proxies:
   sni: cf2.rumedia-cdn.com
   skip-cert-verify: true
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 176.108.246.58
-  port: 9881
+  server: 79.141.174.147
+  port: 33743
   udp: true
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
   tls: true
   reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
-  servername: dl.google.com
-  client-fingerprint: qq
+    public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
+  servername: www.google.com
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-tunnel
+    grpc-service-name: TunService
 proxy-groups:
 - name: PROXIES
   type: select
