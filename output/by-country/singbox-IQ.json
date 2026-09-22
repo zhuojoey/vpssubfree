@@ -5,14 +5,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "144.31.218.10",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "172.67.140.37",
       "server_port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "uuid": "527451fe-ee1f-4e6f-94ca-808f055f7c9b",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/archives/play/pages?ed=2560",
+        "path": "/vl/ERYN0G44hia16zhR",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev"
         }
       }
     },
@@ -31,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
