@@ -5,86 +5,79 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 138.124.121.233
-  port: 443
+  server: 172.64.229.170
+  port: 2052
   udp: true
   type: vless
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: a696de84963656de
-  servername: amd.com
-  client-fingerprint: firefox
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 217.19.122.65
-  port: 443
+  server: 188.114.97.6
+  port: 2095
   udp: true
   type: vless
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  tls: true
-  servername: fbsv6.guardora.pro
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   network: ws
   ws-opts:
-    path: /ws
+    path: /?ed=2560
     headers:
-      Host: fbsv6.guardora.pro
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 46.8.200.91
+  server: 8.6.112.9
   port: 443
   udp: true
   type: vless
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
   tls: true
-  servername: cf3.rumedia-cdn.com
+  servername: ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    headers:
+      Host: ancient-heart-60c5.dpccgizieb.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 185.193.29.123
+  port: 443
+  udp: true
+  type: vless
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  tls: true
+  servername: notls.lukongtou.eu.org
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /
     headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 193.151.108.35
-  port: 43000
-  udp: true
-  type: vless
-  uuid: 47f79fc1-0646-40e8-8a58-73e85d183d5a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: iEIUvfQSP4eHihDkzb-qAQ-9zGaIINRJDvgwOrt6bkQ
-    short-id: 75df7f65ba2a8155
-  servername: 193.151.108.35
-  client-fingerprint: safari
+      Host: notls.lukongtou.eu.org
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 45.12.75.242
-  port: 26424
+  server: 104.21.78.225
+  port: 443
   udp: true
   type: vless
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
+  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
   tls: true
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  servername: ya.ru
+  servername: curly-night-6928.ggdhchjk.workers.dev
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: curly-night-6928.ggdhchjk.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 176.108.247.67
-  port: 9881
+  server: 91.240.86.70
+  port: 22443
   udp: true
-  type: vless
-  uuid: 61a22f4b-4025-4c5b-9fa5-861bf36e67dd
-  tls: true
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-  servername: dl.google.com
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  type: hysteria2
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  sni: itsallproxy.quattro-tech.ru
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
