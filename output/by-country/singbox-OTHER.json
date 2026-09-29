@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.13.71",
+      "server": "104.18.12.71",
       "server_port": 443,
       "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
@@ -27,60 +27,18 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/trojan",
-        "headers": {
-          "Host": "id1.nathaya.web.id"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
