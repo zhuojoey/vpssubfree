@@ -5,24 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.13.71",
+      "tag": "🇧🇪 比利时 (Belgium) 01 - xiaohe",
+      "server": "172.67.209.13",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "fa45096d-bed0-ad80-c773-23c30000001b",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/sync",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev"
         }
       }
     },
@@ -31,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇧🇪 比利时 (Belgium) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
