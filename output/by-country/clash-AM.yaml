@@ -4,30 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇬🇹 GT 01 - xiaohe
-  server: 185.47.254.251
-  port: 443
+- name: 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
+  server: 37.139.42.225
+  port: 7448
   udp: true
   type: vless
-  uuid: 878fb7f7-fc65-465e-a352-17c7216c6f3d
+  uuid: 4643976f-85fa-40cf-9e58-ea28b50f253b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q
-    short-id: 6c059ecfddf9b179
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+  servername: 37.139.42.225
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇬🇹 GT 01 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇬🇹 GT 01 - xiaohe
+  - 🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
