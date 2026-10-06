@@ -4,28 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 167.82.76.27
-  port: 443
+- name: 🇴🇲 OM 01 - xiaohe
+  server: w7k2mf.5tencent.asia
+  port: 35016
   udp: true
-  type: trojan
-  password: mitivpn
-  sni: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+  type: ss
+  cipher: aes-128-gcm
+  password: 6ee847c4-04ef-4786-9720-eb6f73fbd80b
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇴🇲 OM 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇴🇲 OM 01 - xiaohe
 rules:
 - MATCH,PROXIES

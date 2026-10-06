@@ -4,16 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe",
-      "server": "31.77.227.6",
-      "server_port": 52006,
-      "uuid": "bc659d88-a1e0-076c-a49a-7b51b26a7a7f",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
+      "server": "77.74.123.106",
+      "server_port": 4443,
+      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
       "tls": {
         "enabled": true,
-        "server_name": "bigdick.gamegrow.ru",
-        "insecure": false
+        "server_name": "grape-test-italy.dynuddns.net",
+        "insecure": true
       }
     },
     {
@@ -21,14 +20,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 奥地利 (Austria) 01 (家宽) - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
