@@ -4,32 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe
-  server: nl5.hap-plus.ru
-  port: 8443
+- name: 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  server: 104.21.23.80
+  port: 443
   udp: true
-  type: vless
-  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
+  type: vmess
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: nl5.hap-plus.ru
+  servername: my.lovehk.xyz
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /api/v1/events
+    path: /KualaLumpur1
     headers:
-      Host: nl5.hap-plus.ru
+      Host: my.lovehk.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

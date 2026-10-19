@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,29 +26,7 @@
     {
       "type": "trojan",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "server": "203.202.232.211",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.volumeroot.com",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.volumeroot.com"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "server": "nimm.mpd.cc.cd",
+      "server": "172.67.176.3",
       "server_port": 2053,
       "password": "e309e031-991e-4656-9934-44d10deb8fd8",
       "tls": {
@@ -58,7 +36,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/0962"
+        "path": "/0962",
+        "headers": {
+          "Host": "nimm.mpd.cc.cd"
+        }
       }
     },
     {
@@ -67,8 +48,7 @@
       "outbounds": [
         "auto",
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ]
     },
     {
@@ -76,8 +56,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
