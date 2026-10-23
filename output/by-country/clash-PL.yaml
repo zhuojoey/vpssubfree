@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
-  server: 38.107.234.57
+- name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+  server: 54.37.131.126
   port: 80
   udp: true
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  uuid: 6deef9ad-1357-443d-f95c-cb18952c20b3
   alterId: 0
   cipher: auto
   network: ws
   ws-opts:
-    path: /vmess/
+    path: /
     headers:
-      Host: 38.107.234.57
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
+  - 🇵🇱 波兰 (Poland) 01 - xiaohe
 rules:
 - MATCH,PROXIES
