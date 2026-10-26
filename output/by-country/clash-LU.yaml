@@ -4,29 +4,29 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
-  server: 163.61.182.194
-  port: 34646
+- name: 🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe
+  server: 107.189.7.176
+  port: 32752
   udp: true
   type: vless
-  uuid: 608af979-75ff-4480-b1fd-9c4a36962835
+  uuid: 4970c1cd-13e1-498a-920a-61d07be2fa65
   tls: true
   reality-opts:
-    public-key: UuXUXzPnZM8IY-D5bQPy4iBIzEpK4PJFEOJzeObISRA
-    short-id: 4710d669
-  servername: api.receptivity.io
+    public-key: pfFcQxKv4EPhCDUoZMCmTjj4FK7HHQg_me-In3bOejA
+    short-id: d758a643034ad90e
+  servername: www.apple.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  - 🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe
 rules:
 - MATCH,PROXIES
