@@ -13,7 +13,7 @@
     {
       "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "pl1.obxodvpn.us",
+      "server": "191.217.251.225",
       "server_port": 4443,
       "password": "146d567c-6335-4e63-a8aa-7ec068642440",
       "tls": {
@@ -58,7 +58,11 @@
       "tls": {
         "enabled": true,
         "server_name": "ru1.radiolumens.uk",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       },
       "transport": {
         "type": "grpc",
@@ -68,27 +72,6 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe",
-      "server": "31.184.253.134",
-      "server_port": 53869,
-      "uuid": "252b4a9c-520d-459c-9dbc-366995206089",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.moddb.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rtc2Krk2fVhHCRG82EsUc4_mlw304HKHkl6MggQZEAU",
-          "short_id": "0f2cc340a69ed7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe",
       "server": "2.26.6.1",
       "server_port": 2087,
       "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
@@ -99,6 +82,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇵🇱 波兰 (Poland) 07 - xiaohe",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
       }
     },
