@@ -20,6 +20,15 @@ proxies:
     headers:
       Host: hw6.divarkhaghazi.com.
 - name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
+  server: cd0.bmi.ir.kolman.com.de
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 2da85937-93d9-4509-8491-63b1921cf447
+  alterId: 0
+  cipher: auto
+  network: httpupgrade
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
   server: 65.109.210.221
   port: 465
   udp: true
@@ -34,17 +43,6 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
 proxy-groups:
 - name: PROXIES
   type: select
