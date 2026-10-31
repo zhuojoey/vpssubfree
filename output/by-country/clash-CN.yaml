@@ -20,7 +20,7 @@ proxies:
     headers:
       Host: vpn.cintaku.qzz.io
 - name: 🇨🇳 CN 02 - xiaohe
-  server: 8.35.211.242
+  server: 188.114.98.0
   port: 443
   udp: true
   type: vless
