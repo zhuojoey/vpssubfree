@@ -10,15 +10,15 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 160.187.100.109
+  sni: 127.0.0.1
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
-  server: 103.115.109.49
-  port: 443
+  server: 47.129.112.129
+  port: 20000
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/oneclickvpnkeys
+  password: CQUPACy34t6Tjx8FdQdkCiYW
+  sni: sg-transit-3.nebulacloud.win
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
