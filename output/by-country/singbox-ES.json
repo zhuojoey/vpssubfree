@@ -38,7 +38,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -50,33 +50,25 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
-      "server": "66.163.118.115",
+      "server": "66.163.118.40",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "cdn.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
       }
     },
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 06 - xiaohe",
-      "server": "66.163.118.131",
+      "server": "66.163.118.203",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "blog.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
       }
     },
     {
@@ -94,12 +86,28 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 08 - xiaohe",
-      "server": "66.163.118.203",
+      "server": "66.163.118.115",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "blog.discovergreatjobsandadvanceyourcareer.com",
+        "server_name": "discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 09 - xiaohe",
+      "server": "66.163.118.244",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
@@ -115,7 +123,8 @@
         "🇪🇸 西班牙 (Spain) 05 - xiaohe",
         "🇪🇸 西班牙 (Spain) 06 - xiaohe",
         "🇪🇸 西班牙 (Spain) 07 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 08 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 08 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 09 - xiaohe"
       ]
     },
     {
@@ -129,7 +138,8 @@
         "🇪🇸 西班牙 (Spain) 05 - xiaohe",
         "🇪🇸 西班牙 (Spain) 06 - xiaohe",
         "🇪🇸 西班牙 (Spain) 07 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 08 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 08 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 09 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
