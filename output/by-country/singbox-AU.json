@@ -4,16 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-      "server": "13.55.52.44",
-      "server_port": 36712,
-      "password": "linlin-2026",
-      "tls": {
-        "enabled": true,
-        "server_name": "13.55.52.44",
-        "insecure": true
-      }
+      "server": "38.91.107.49",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
       "type": "trojan",
@@ -23,8 +19,8 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": false
+        "server_name": "45.63.30.142",
+        "insecure": true
       }
     },
     {
