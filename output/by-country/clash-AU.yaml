@@ -5,21 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 38.91.107.49
-  port: 18000
-  udp: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   server: 45.63.30.142
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 45.63.30.142
+  sni: connectwithemployerstohireyouridealteam.com
   skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+  server: 104.18.10.153
+  port: 443
+  udp: true
+  type: vless
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
+  tls: true
+  servername: portland-wins-robbie-skirt.trycloudflare.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /e0843c8ad581
+    headers:
+      Host: portland-wins-robbie-skirt.trycloudflare.com
 proxy-groups:
 - name: PROXIES
   type: select
