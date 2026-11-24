@@ -4,22 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.64.229.21",
+      "server": "104.24.137.130",
       "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "security": "auto",
+      "password": "1vkFHbQX_gN1U8V8jVc",
       "tls": {
         "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
-        "insecure": false
+        "server_name": "mhpanel.kigaping.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "android"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/ws",
+        "path": "/trojan-ws",
         "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
+          "Host": "mhpanel.kigaping.com"
         }
       }
     },

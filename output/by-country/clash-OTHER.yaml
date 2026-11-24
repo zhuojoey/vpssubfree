@@ -5,21 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.64.229.21
+  server: 104.24.137.130
   port: 443
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: vmess.lbw666.dpdns.org
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
+    path: /trojan-ws
 proxy-groups:
 - name: PROXIES
   type: select

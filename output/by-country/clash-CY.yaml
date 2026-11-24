@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
-  server: 132.243.242.216
+  server: 195.133.93.227
   port: 9543
   udp: true
   type: vless
