@@ -17,7 +17,7 @@ proxies:
   servername: api-dns-gw.galioncc.com
   client-fingerprint: chrome
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - xiaohe
-  server: lt.memepn.com
+  server: 84.32.209.54
   port: 443
   udp: true
   type: vless
