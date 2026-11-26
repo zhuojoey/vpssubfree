@@ -30,16 +30,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: v4-clequinix-globalinetforallalwaysandneverbanyoubelieveme-com
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
-  server: 92.63.189.39
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 7aa77858-f235-0005-9434-7ab060848b17
-  flow: xtls-rprx-vision
-  tls: true
-  servername: avelon.onl
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,7 +37,6 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,6 +44,5 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
-  - 🇨🇿 捷克 (Czech) 03 - xiaohe
 rules:
 - MATCH,PROXIES
